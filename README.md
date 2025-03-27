@@ -19,7 +19,7 @@ CLI RAG prototype on DuckDB implemented for ChatCraft using **vector search**
 npm run rag -- process
 ```
 
-This command will process all the files, segmenting them into the **chunks** of the **sentences(default)** or **paragraphss**
+This command will process all the files, segmenting them into the **chunks** of the **sentences(default)** or **paragraphss**. Eventually, it will generate vector embeddings of 1**584 dimensions** using `text-embedding-3-small` model.   
 
 To use the **paragraphs option**:
 ```bash
@@ -53,6 +53,22 @@ npm run rag -- ask <question> --top 5
 
 **Output:**
 <img width="1105" alt="image" src="https://github.com/user-attachments/assets/49c4f872-bd49-478c-b888-6259f47f0e94" />
+
+4. Adding/Deleting Documents
+   - To update the duckdb tables after addition or removal of the documents make sure to reset the tables:
+   ``` bash
+   npm run rag -- process --reset
+   ```
+
+## Optional
+
+To see the `embeddings`, `chunks` and `documents` tables you may use new feature by DuckDB:
+
+```bash
+duckdb -ui rag_data.db
+```
+
+**NOTE:** It is just a prototype, but it will become something useful in the future!
 
 
   
