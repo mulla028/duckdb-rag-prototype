@@ -1,0 +1,155 @@
+# Climate Change: Data, Trends, and Analysis
+
+## Global Temperature Records
+
+Global mean surface temperature (GMST) has increased by approximately 1.1°C since the pre-industrial period (1850-1900). The most recent decade (2011-2020) was the warmest on record. The years 2016 and 2020 were the warmest individual years in the modern temperature record.
+
+### Temperature Anomalies by Decade (°C relative to 1850-1900 baseline)
+- 1880-1889: -0.12°C
+- 1900-1909: -0.08°C
+- 1920-1929: -0.03°C
+- 1940-1949: +0.05°C
+- 1960-1969: +0.10°C
+- 1980-1989: +0.39°C
+- 2000-2009: +0.79°C
+- 2010-2019: +1.01°C
+- 2020-2023: +1.17°C
+
+## Greenhouse Gas Concentrations
+
+Carbon dioxide (CO₂) is the primary greenhouse gas responsible for human-induced climate change. Other significant greenhouse gases include methane (CH₄) and nitrous oxide (N₂O).
+
+### Atmospheric CO₂ Concentrations (parts per million)
+- Pre-industrial level: ~280 ppm
+- 1960: 317 ppm
+- 1980: 339 ppm
+- 2000: 370 ppm
+- 2020: 414 ppm
+- 2023: 424 ppm
+
+### Methane Concentrations (parts per billion)
+- Pre-industrial level: ~700 ppb
+- 1960: 1,270 ppb
+- 1980: 1,570 ppb
+- 2000: 1,774 ppb
+- 2020: 1,889 ppb
+- 2023: 1,923 ppb
+
+## Arctic Sea Ice Decline
+
+Arctic sea ice has been declining rapidly due to warming temperatures. The September minimum (annual low point) has decreased by approximately 13.1% per decade since satellite observations began in 1979.
+
+### Arctic Sea Ice Minimum Extent (million square kilometers)
+- 1980: 7.85
+- 1990: 6.22
+- 2000: 6.32
+- 2010: 4.92
+- 2012: 3.57 (record low)
+- 2020: 3.92
+- 2023: 4.23
+
+## Sea Level Rise
+
+Global mean sea level has risen by approximately 21-24 cm since 1880, with the rate accelerating in recent decades due to increased ice sheet and glacier melt, as well as thermal expansion of ocean water.
+
+### Sea Level Rise Rates
+- 1901-2000: 1.4 mm/year
+- 1971-2018: 2.3 mm/year
+- 1993-2015: 3.1 mm/year
+- 2006-2018: 3.7 mm/year
+- 2018-2023: 4.5 mm/year
+
+## Extreme Weather Events
+
+Climate change is increasing the frequency and intensity of certain extreme weather events, including heat waves, heavy precipitation, droughts, and tropical cyclones.
+
+### Global Heat Wave Frequency (compared to 1951-1980 baseline)
+- 1950s: -0.21 (below average frequency)
+- 1970s: -0.08 (slightly below average)
+- 1990s: +0.32 (above average)
+- 2010s: +0.72 (significantly above average)
+- 2020-2023: +0.94 (dramatically above average)
+
+### Category 4-5 Hurricane Percentage (of total hurricanes)
+- 1980-1989: 25%
+- 1990-1999: 28%
+- 2000-2009: 32%
+- 2010-2019: 38%
+- 2020-2023: 42%
+
+## Carbon Budget and Emissions
+
+To limit warming to 1.5°C above pre-industrial levels, the remaining carbon budget is estimated at approximately 400 GtCO₂ from 2023 onward. Current annual global CO₂ emissions are approximately 37 GtCO₂, meaning the budget would be exhausted in roughly 10-12 years at current emission rates.
+
+### Annual CO₂ Emissions by Region (GtCO₂)
+- China: 11.47 (31% of global total)
+- United States: 5.01 (14%)
+- European Union: 2.73 (7%)
+- India: 2.65 (7%)
+- Russia: 1.94 (5%)
+- Japan: 1.15 (3%)
+- Rest of World: 12.05 (33%)
+
+## Climate Sensitivity and Feedback Mechanisms
+
+Climate sensitivity refers to the amount of warming expected from a doubling of atmospheric CO₂. The likely range is 2.5°C to 4.0°C, with a best estimate of 3.0°C.
+
+### Key Feedback Mechanisms
+- Water vapor feedback: +1.8 W/m² per °C (amplifying)
+- Ice-albedo feedback: +0.3 W/m² per °C (amplifying)
+- Cloud feedback: +0.5 W/m² per °C (amplifying)
+- Lapse rate feedback: -0.6 W/m² per °C (dampening)
+
+## Tipping Points and Irreversible Changes
+
+Several components of the Earth system may have critical thresholds beyond which large-scale, potentially irreversible changes can occur.
+
+### Potential Tipping Elements
+- Greenland Ice Sheet: Threshold estimated at 1.5-2.0°C above pre-industrial
+- West Antarctic Ice Sheet: Threshold uncertain, possibly already committed
+- Amazon Rainforest: Threshold estimated at 3-4°C with reduced precipitation
+- Atlantic Meridional Overturning Circulation: Threshold estimated at 3-5°C
+- Permafrost Carbon Release: Gradual thawing ongoing, accelerates >2°C
+
+## Mitigation Pathways
+
+To limit warming to 1.5°C, global net anthropogenic CO₂ emissions need to decline by about 45% from 2010 levels by 2030, reaching net zero around 2050.
+
+### Required Emission Reductions by Sector (% change by 2030 compared to 2019)
+- Energy: -60% to -75%
+- Industry: -40% to -55%
+- Buildings: -45% to -60%
+- Transport: -35% to -50%
+- Agriculture, Forestry and Other Land Use: -20% to -30%
+
+## Climate Model Projections
+
+Climate models project future warming based on different emissions scenarios. Under high emissions (SSP5-8.5), warming could reach 4.4°C by 2100. Under low emissions (SSP1-1.9), warming could be limited to 1.5°C.
+
+### Projected Warming by 2100 (relative to 1850-1900)
+- Very low emissions (SSP1-1.9): 1.4°C (range: 1.0-1.8°C)
+- Low emissions (SSP1-2.6): 1.8°C (range: 1.3-2.4°C)
+- Intermediate emissions (SSP2-4.5): 2.7°C (range: 2.1-3.5°C)
+- High emissions (SSP3-7.0): 3.6°C (range: 2.8-4.6°C)
+- Very high emissions (SSP5-8.5): 4.4°C (range: 3.3-5.7°C)
+
+## Impacts at Different Warming Levels
+
+Climate impacts vary significantly at different levels of warming.
+
+### 1.5°C vs. 2.0°C Impacts
+- Species losing >50% of climatically determined range: 6% vs. 18% of insects, 8% vs. 16% of plants, 4% vs. 8% of vertebrates
+- Population exposed to severe heat at least once every 5 years: 14% vs. 37%
+- Global population exposed to severe drought: 9% vs. 12%
+- Sea level rise by 2100: 0.4m vs. 0.46m
+
+## Attribution Science
+
+Attribution science quantifies the influence of human-caused climate change on specific extreme weather events.
+
+### Attribution of Recent Events
+- European Summer Heatwave 2003: 2-4 times more likely due to climate change
+- California Drought 2012-2014: 15-20% more severe due to climate change
+- Hurricane Harvey Rainfall 2017: 3 times more likely, 15% more intense
+- Australian Bushfires 2019-2020: At least 30% more likely
+- Pacific Northwest Heatwave 2021: Virtually impossible without climate change
