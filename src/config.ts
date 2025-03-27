@@ -1,4 +1,3 @@
-// src/config.ts
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -12,6 +11,6 @@ export const config = {
     batchSize: 16, // Number of chunks to process at once
   },
   llm: {
-    model: 'gpt-3.5-turbo', // or 'gpt-4', etc.
-  }
+    model: 'gpt-3.5-turbo',
+  },
 };
