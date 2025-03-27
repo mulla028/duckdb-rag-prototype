@@ -111,15 +111,15 @@ export class EmbeddingsService {
     try {
       try {
         await this.db.query('SELECT vss_version()');
-        console.log('VSS extension already loaded');
+        console.log('[LOGGER] VSS extension already loaded');
         return;
       } catch (error) {
-        if (error) console.log('VSS not loaded. Installing and loading now...');
+        if (error) console.log('[LOGGER] VSS not loaded. Installing and loading now...');
       }
 
       await this.db.execute(`INSTALL vss;`);
       await this.db.execute(`LOAD vss;`);
-      console.log('VSS extension loaded');
+      console.log('[LOGGER] VSS extension loaded');
     } catch (error) {
       console.warn('VSS extension could not be loaded. Vector search may not be available:', error);
     }

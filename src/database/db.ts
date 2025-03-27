@@ -11,7 +11,7 @@ export class Database {
       this.db = new duckdb.Database(dbPath);
       this.conn = this.db.connect();
       this.isConnected = true;
-      console.log(`Database connection established: ${dbPath}`);
+      console.log(`[LOGGER] Database connection established: ${dbPath}`);
     } catch (error) {
       console.error('Error establishing database connection:', error);
       throw error;
@@ -106,7 +106,7 @@ export class Database {
       return new Promise((resolve) => {
         this.db.close(() => {
           this.isConnected = false;
-          console.log('Database connection closed successfully');
+          console.log('\n[Logger] Database connection closed successfully');
           resolve();
         });
       });

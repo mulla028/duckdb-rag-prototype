@@ -32,16 +32,13 @@ program
     const docLoader = new DocumentLoader(options.dir);
 
     try {
-      // Initialize
       await docProcessor.initialize();
 
-      // Reset if requested
       if (options.reset) {
         console.log(chalk.blue('Resetting database...'));
         await docProcessor.resetDatabase();
       }
 
-      // Load documents
       console.log(chalk.blue('Loading documents...'));
       const documents = await docLoader.loadAllDocuments();
       console.log(chalk.blue(`Found ${chalk.bold(documents.length)} documents`));
@@ -54,18 +51,16 @@ program
         return;
       }
 
-      // Process documents
       console.log(chalk.blue('Processing documents...'));
       const startTime = Date.now();
       const chunkingStrategy = options.chunking === 'paragraphs' ? 'paragraphs' : 'sentences';
       await docProcessor.processDocuments(documents, chunkingStrategy);
       const endTime = Date.now();
 
-      // Build search index
       console.log(chalk.blue('Building search index...'));
       await docProcessor.createSearchIndex('cosine');
 
-      // Show summary
+      // Summary
       const stats = {
         documents: await docProcessor.getDocumentCount(),
         chunks: await docProcessor.getChunkCount(),
@@ -159,7 +154,7 @@ program
       }
       // Single question mode
       else if (question) {
-        console.log(chalk.yellow(`Question: ${question}`));
+        console.log(chalk.yellow(`\n❓ Question:\n${question}\n`));
         console.log(chalk.blue('Searching for relevant information...'));
 
         const result = await rag.answerQuestion(question, { topK: parseInt(options.top) });
