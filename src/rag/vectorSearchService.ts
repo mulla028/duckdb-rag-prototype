@@ -1,4 +1,3 @@
-// src/rag/vectorSearchService.ts
 import { Database } from '../database/db';
 import { config } from '../config';
 import { EmbeddingsService } from '../embeddings/embeddingsService';
@@ -12,20 +11,18 @@ export interface SearchResult {
 
 export class VectorSearchService {
   private embeddingsService: EmbeddingsService;
-  
+
   constructor(private db: Database) {
     this.embeddingsService = new EmbeddingsService(db);
   }
-  
-  /**
-   * Search for similar chunks using vector similarity
-   */
+
+  // Search for similar chunks using vector similarity
   async searchSimilarChunks(query: string, limit: number = 5): Promise<SearchResult[]> {
-    // Generate embedding for the query
-    const queryEmbedding = await this.embeddingsService.generateEmbeddings([{ text: query, index: 0 }]);
+    const queryEmbedding = await this.embeddingsService.generateEmbeddings([
+      { text: query, index: 0 },
+    ]);
     const embeddingStr = '[' + queryEmbedding[0].embedding.join(',') + ']';
-    
-    // Use direct SQL
+
     const results = await this.db.query(`
       SELECT 
         c.chunk_id,
@@ -37,12 +34,12 @@ export class VectorSearchService {
       ORDER BY array_cosine_distance(e.embedding, '${embeddingStr}'::FLOAT[${config.embeddings.dimensions}])
       LIMIT ${limit}
     `);
-    
-    return results.map(row => ({
+
+    return results.map((row) => ({
       chunkId: row.chunk_id,
       documentId: row.document_id,
       text: row.chunk_text,
-      score: 1 - row.distance
+      score: 1 - row.distance,
     }));
   }
 }
